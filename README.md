@@ -8,20 +8,19 @@ The data source is the public and unused data from the China Physiological Signa
 # Results
 
 
-| Loss | Accuracy |
+Dataset| Loss | Accuracy |
 --- | --- | 
 Training  | 0.015 | 0.96 |
 Validation  | 0.102 | 0.82 |
 
 
-. | f-2 score  | g-2 score | geometric mean |
+Dataset | f-2 score  | g-2 score | geometric mean |
 --- | --- | --- | 
-Training dataset  | 0.367 | 0.115 |  0.205 | 
-Testing dataset  | 0.365 | 0.114 |  0.204 |
+Training  | 0.367 | 0.115 |  0.205 | 
+Testing  | 0.365 | 0.114 |  0.204 |
 
-Actual value :
-       AF  I-AVB  LBBB  Normal  PAC  PVC  RBBB  STD  STE
-277  1.0    0.0   0.0     0.0  0.0  0.0   0.0  0.0  0.0
-Predicted value: 
-         AF  I-AVB  LBBB  Normal    PAC  PVC  RBBB  STD  STE
-277  0.999    0.0   0.0     0.0  0.001  0.0   0.0  0.0  0.0
+
+Actual value| AF | I-AVB | LBBB | Normal | PAC | PVC | RBBB | STD | STE |
+277 | 1.0  |  0.0 |  0.0  | 0.0 | 0.0 | 0.0  | 0.0 | 0.0 | 0.0
+Predicted value | AF | I-AVB | LBBB | Normal | PAC | PVC | RBBB | STD | STE |
+277 | 0.999 | 0.0 | 0.0  | 0.0 | 0.001 | 0.0 | 0.0 | 0.0 | 0.0 |

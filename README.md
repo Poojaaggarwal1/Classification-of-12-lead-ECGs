@@ -20,7 +20,7 @@ Training  | 0.367 | 0.115 |  0.205 |
 Testing  | 0.365 | 0.114 |  0.204 |
 
 
-Actual value| AF | I-AVB | LBBB | Normal | PAC | PVC | RBBB | STD | STE |
-277 | 1.0  |  0.0 |  0.0  | 0.0 | 0.0 | 0.0  | 0.0 | 0.0 | 0.0
-Predicted value | AF | I-AVB | LBBB | Normal | PAC | PVC | RBBB | STD | STE |
-277 | 0.999 | 0.0 | 0.0  | 0.0 | 0.001 | 0.0 | 0.0 | 0.0 | 0.0 |
+Datapoint = 277| AF | I-AVB | LBBB | Normal | PAC | PVC | RBBB | STD | STE |
+--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+Actual value | 1.0  |  0.0 |  0.0  | 0.0 | 0.0 | 0.0  | 0.0 | 0.0 | 0.0
+Predicted value | 0.999 | 0.0 | 0.0  | 0.0 | 0.001 | 0.0 | 0.0 | 0.0 | 0.0 |

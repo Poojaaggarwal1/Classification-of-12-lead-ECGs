@@ -9,14 +9,12 @@ The data source is the public and unused data from the China Physiological Signa
 
 
  | Loss | Accuracy |
---- | --- | --- | 
+--- | --- | 
 Training  | 0.015 | 0.96 |
---- | --- | --- | 
 Validation  | 0.102 | 0.82 |
 
 
  | f-2 score  | g-2 score | geometric mean |
 --- | --- | --- | 
-Training dataset  | 0.367 | 0.115 |  0.205 |
---- | --- | --- | 
+Training dataset  | 0.367 | 0.115 |  0.205 | 
 Testing dataset  | 0.365 | 0.114 |  0.204 |
